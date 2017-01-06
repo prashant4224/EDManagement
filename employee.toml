@@ -1,0 +1,23 @@
+title = "Employee Data Management"
+port  = "9090"
+
+[owner]
+name            = "JM Prashant"
+organization    = "xoriant"
+bio             = "Fukart Cofounder & CEO\nLikes tater tots and beer."
+dob             = 1990-04-17T09:32:00Z
+
+[database]
+server          = "192.168.27.1"
+ports           = [9090, 9091, 9092]
+connection_max  = 5000
+enabled         = true
+
+[servers]
+port           = "9090"
+
+[clients]
+data = [["gamma", "delta"],[1,2]]
+
+hosts = ["xoriantinfo.com", "xoriant.com"]
+
